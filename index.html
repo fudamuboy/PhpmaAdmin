@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ1</title>
+</head>
+
+<body>
+    <h1>Bilgiler</h1>
+    <br><br>
+    <form action="demo.php" method="post">
+        <label for="name">Adi:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="sname">Soyadi:</label>
+        <input type="text" id="sname" name="sname" required>
+        <br><br>
+
+        <label for="age">E-posta:</label>
+        <input type="text" id="age" name="age" required>
+        <br><br>
+
+        <label for="gender">Cinsiyet:</label><br>
+        <input type="radio" id="male" name="gender" value="Erkek" required>
+        <label for="male">Erkek</label><br>
+        <input type="radio" id="female" name="gender" value="Kadin">
+        <label for="female">Kadin</label>
+        <br><br>
+
+        <label for="hobiler">Hobiler:</label><br>
+        <input type="checkbox" id="spor" name="hobiler[]" value="Spor">
+        <label for="Spor">Spor</label><br>
+        <input type="checkbox" id="müzik" name="hobiler[]" value="Müzik">
+        <label for="Müzik">Müzik</label><br>
+        <input type="checkbox" id="resim" name="hobiler[]" value="Resim">
+        <label for="resim">Resim</label><br>
+        <br><br>
+
+        <button type="submit">Ekle</button>
+    </form>
+
+</body>
+
+</html>
